@@ -14,9 +14,9 @@
 <body>
   <header>
     <header>
-    <div class="text-center">
-      <img src="images/logo.png" alt="Imagen del header" class="img-fluid mx-auto">
-    </div>  
+      <div class="text-center">
+        <img src="images/logo.png" alt="Imagen del header" class="img-fluid mx-auto">
+      </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -31,14 +31,25 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Departamentos</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departamentos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Mantenimiento</a></li>
+                  <li><a class="dropdown-item" href="#">Materiales</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño</a></li>
+                  <li><a class="dropdown-item" href="#">Calidad</a></li>
+                  <li><a class="dropdown-item" href="#">Producción</a></li>
+                  <li><a class="dropdown-item" href="#">Recursos humanos</a></li>
+                  <li><a class="dropdown-item" href="#">Financieros</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Usuarios</a>
+                <a class="nav-link" href="">Usuarios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
+                <a class="nav-link" href="#">Mantenimientos</a>
               </li>
             </ul>
           </div>
