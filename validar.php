@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("validar.php");
+include("config.php");
 // Conectarse a la base de datos
 $cone = DBDRIVER.':host='.DBHOST.';dbname='.DBNAME.';port='.DBPORT;
 $db = new PDO($cone,DBUSER,DBPASS);
